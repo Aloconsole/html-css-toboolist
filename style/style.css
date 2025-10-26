@@ -5,12 +5,18 @@ header {
 
 body {
     margin: 0;
-
+    background-color: #f5f8fa;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
     font-weight: 700;
 }
 
@@ -24,7 +30,6 @@ hr {
 }
 
 .main-container {
-    background-color: #f5f8fa !important;
     margin: 40px 200px 0 200px;
 }
 
@@ -51,4 +56,40 @@ hr {
     padding: 10px;
     border: 1px solid #d8d8d8;
     border-radius: 8px;
+}
+
+.task-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item ul li {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.category-label {
+    background-color: #45acf0;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.symbol {
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    margin: 0 10px 0 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.triangle {
+    margin: 0 5px 0 0;
+
 }
